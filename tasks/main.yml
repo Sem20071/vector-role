@@ -9,9 +9,9 @@
       debug:
         var: ansible_os_family 
 
-    - name: OS Family
-      debug:
-        msg: "{{ ansible_os_family }}"
+    # - name: OS Family
+    #   debug:
+    #     msg: "{{ ansible_os_family }}"
 
     - name: Download RPM package
       ansible.builtin.get_url:
