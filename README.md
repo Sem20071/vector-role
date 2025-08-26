@@ -1,7 +1,7 @@
 vector-role
 =========
 
-This role installs vector on Centos
+This role installs vector on Centos.
 
 Role Variables
 --------------
